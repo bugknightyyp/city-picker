@@ -88,7 +88,7 @@ var alien_f_city=[
 
 *搜索界面：支持指定要搜索的数据源
 
-*搜索界面：支持快捷键&uarr;&darr;选择选项,&larr;&rarr;翻页，
+*搜索界面：支持快捷键&uarr;&darr;选择选项,&larr;&nbsp;&rarr;翻页，
 
 
 
