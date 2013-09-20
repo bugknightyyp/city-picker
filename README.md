@@ -8,6 +8,13 @@ this is used to picking a city the one customers want to  locate.
 
 这是一个城市选择器，适用于需要搜索城市关键字来搜索的任何场景。
 
+architecture
+-----------
+
+*该组件基于[jquery](http://jquery.com "query");
+
+*解决方案基于[seajs](http://seajs.org "seajs");
+
 
 界面截图
 --------
@@ -89,6 +96,8 @@ var alien_f_city=[
 *搜索界面：支持指定要搜索的数据源
 
 *搜索界面：支持快捷键&uarr;&darr;选择选项,&larr;&nbsp;&rarr;翻页，
+
+
 
 
 
