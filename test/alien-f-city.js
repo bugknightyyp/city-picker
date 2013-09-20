@@ -1,0 +1,46 @@
+//国内机票
+var alien_f_city=[
+	{label:"热门",
+	cities:[
+			['北京','BEIJING','PEK'],
+			['上海','SHANGHAI','SHA'],
+			['广州','GUANGZHOU','CAN'],
+			['深圳','SHENZHEN','SZX'],
+			['成都','CHENGDU','CTU'],
+			['杭州','HANGZHOU','HGH'],
+			['长沙','CHANGSHA','CSX'],
+			['重庆','CHONGQING','CKG'],
+			['昆明','KUNMING','KMG'],
+			['西安','XIAN','XIY'],
+			['武汉','WUHAN','WUH'],
+			['南京','NANJING','NKG'],
+			['青岛','QINGDAO','TAO'],
+			['三亚','SANYA','SYX'],
+			['厦门','XIAMEN','XMN']
+		]
+	},
+	{label:['ABCDEF','GHIJKL','MNOPQR','STUVWXYZ'],
+	isSearch:true,
+	cities:[
+
+			['上海','SHANGHAI','SHA'],
+			['黄岩(台州)','HUANGYAN','HYN'],
+			['杭州','HANGZHOU','HGH'],
+			['义乌','YIWU','YIW'],
+			['衢州','JUZHOU','JUZ'],
+			['舟山(普陀山)','ZHOUSHAN','HSN'],
+			['温州','WENZHOU','WNZ']
+		]
+	},
+	{label:false
+	isSearch:true,
+	cities:[
+			['太原','TAIYUAN','TYN'],
+			['武汉','WUHAN','WUH'],
+			['无锡','WUXI','WUX'],
+			['顺德','SHUNDE','SDE'],
+			['苏州','SUZHOU','SOZ'],
+			['郑州','ZHENGZHOU','CGO']
+		]
+	}
+]

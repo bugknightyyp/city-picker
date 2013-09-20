@@ -1,7 +1,7 @@
 # Build and Release Folders
-bin/
-bin-debug/
-bin-release/
+node_modules/
+test/convert*.js
+temp/
 
 # Other files and folders
 .settings/
