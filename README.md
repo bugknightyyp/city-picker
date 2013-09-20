@@ -19,7 +19,11 @@ this is used to picking a city the one customers want to  locate.
 
 ```js
 var alien_f_city=[
-	{label:"热门",//指定选择界面的tab标签显示的文字，如果没有label字段或等于false,该组数据将不再选择界面显示；
+	/*
+	* label 指定选择界面的tab标签显示的文字，
+	* 如果没有label字段或等于false,该组数据将不再选择界面显示；
+	*/
+	{label:"热门",
 	cities:[
 			['北京','BEIJING','PEK'],
 			['上海','SHANGHAI','SHA'],
@@ -38,7 +42,11 @@ var alien_f_city=[
 			['厦门','XIAMEN','XMN']
 		]
 	},
-	{label:['ABCDEF','GHIJKL','MNOPQR','STUVWXYZ'],//如果标签按照字母分类指定了tab标签显示内容，那么会帮你自动按照指定的字符分类，生成tab和其对应要显示的数据
+	/*
+	* label如果按照字母分类指定了tab标签显示内容，
+	* 那么会帮你自动按照指定的字符分类，生成tab和其对应要显示的数据
+	*/
+	{label:['ABCDEF','GHIJKL','MNOPQR','STUVWXYZ'],
 	isSearch:false,//如果没有isSearch或其值等于false，那么在搜索时，将不在该组数据里进行搜索。
 	cities:[
 
@@ -71,12 +79,13 @@ var alien_f_city=[
 
 兼容主流浏览器，包括ie6+；
 
-支持更换皮肤；
+*支持更换皮肤；
 
-选择界面：支持设置其宽,支持设置每一列数据的宽度（每一列数据所占界面宽度的百分比），当然前2者也决定了总列数；
-选择界面：指定tab标签显示的文字及其下边和它对应的数据；
+*选择界面：支持设置其宽,支持设置每一列数据的宽度（每一列数据所占界面宽度的百分比），当然前2者也决定了总列数；
 
-搜索界面：支持指定要搜索的数据源
+*选择界面：指定tab标签显示的文字及其下边和它对应的数据；
+
+*搜索界面：支持指定要搜索的数据源
 
 
 

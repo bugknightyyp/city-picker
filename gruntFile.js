@@ -8,7 +8,7 @@ module.exports = function(grunt){
 				idleading:'<%= pkg.name %>/<%= pkg.version %>/',
 				debug:false
 			},
-			nav_aim:{
+			cityPicker:{
 				files:[{
 					cwd: 'src',
 					src: '*.js',
@@ -23,7 +23,7 @@ module.exports = function(grunt){
 					debug:false
 				},
 				files:[{
-					cwd: 'temp',
+					cwd: 'css',
 					src: '*.css',
 					dest: 'temp'
 				}]
@@ -34,9 +34,9 @@ module.exports = function(grunt){
 				banner: '/*! nav-aim- v<%= pkg.version %> - ' +
 				'<%= grunt.template.today("yyyy-mm-dd") %> */'
 			},
-			nav_aim:{
+			cityPicker:{
 				files: {
-				'dist/<%= pkg.name %>js': ['temp/*.js']
+				'dist/<%= pkg.name %>.js': ['temp/*.js']
 			  }
 			}
 			
