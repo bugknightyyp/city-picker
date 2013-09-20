@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>city-piker-sample</title>
+<style>
+*{ padding:0; margin:0;}
+body{ font-size:12px;}
+#txt_1,#txt_2{ position:absolute; top:100px; left:500px; border:1px solid #cccccc; height:20px; line-height:20px; width:200px;}
+
+#txt_2{ top:300px; }
+</style>
+
+<!--
+<script type="text/javascript" src="http://wres.mangocity.com/js/s/ship/jquery-1.4.1.min.js"></script>
+<script src="http://wres.mangocity.com/js/lib/jquery/1.8.3/jquery-1.8.3.js"></script>
+-->
+</head>
+
+<body>
+<h2>请确保联网正常，因为jquery 和seajs引用的是其他服务上的源码，点击输入框进行操作测试</2>
+
+
+<input type="text" id="txt_1" value="请输入"/>
+<input type="hidden" id="hid_1" value=""/>
+
+<input type="text" id="txt_2" value="请输入"/>
+<input type="hidden" id="hid_2" value=""/>
+
+
+</body>
+</html>
+
+<script src="http://wres.mangocity.com/js/lib/seajs/2.1.1/sea.js"></script>
+<script>
+seajs.config({
+   plugins:["style","shim"],
+   preload:["./alien-f-city.js"],
+   alias:{
+       "jquery":"jquery/1.10.2/jquery-1.10.2.cmd"
+   },
+    debug:true
+});
+
+seajs.use(["jquery","../src/city-picker.js"],function($,city){
+	var temp = new city({
+	    skin : 2,
+	    txt:$("#txt_1"),
+	    source:alien_f_city,
+		offer_atom_w:25,
+		blur_callback : null,
+		item_mdcb:function(){
+		    $("#txt_1").val( $( this ).attr( "title" ) ); 
+			$("#hid_1").val( $( this ).attr( "code" ) );
+			$("#txt_2").trigger("focus");
+		}
+	});
+	var temp_1 = new city({
+	    txt:$("#txt_2"),
+	    source:alien_f_city,
+		offer_w:450,
+		offer_atom_w:25,		
+		item_mdcb:function(){
+		    $("#txt_2").val( $( this ).attr( "title" ) ); 
+			$("#hid_2").val( $( this ).attr( "code" ) );
+		}
+	});
+});
+
+
+</script>

@@ -1,0 +1,44 @@
+
+
+/* offer pick*/
+.o_pick{ width:334px; overflow:hidden; border-width:1px; border-style:solid; position:absolute; background-color:#FFFFFF;border-radius: 0 5px 5px 0; }
+.o_pick ul{ list-style:none;}
+.o_pick ul li{ list-style:none;}
+.o_pick .o_pick_h{ height:24px; line-height:24px; color:#999999;}
+.o_pick .o_pick_tab{ padding:0 5px 23px 5px; border-bottom-width:1px; border-bottom-style:solid;}
+.o_pick .o_pick_tab li{ float:left; display:inline; padding:0 5px; margin-right:2px; height:22px; line-height:22px; border-width:1px; border-style:solid; border-radius:3px 3px 0 0; cursor:pointer; }
+.o_pick .o_pick_tab li.on{ background-color:#ffffff; border-bottom:1px solid #ffffff;cursor:auto;}
+.o_pick .o_pick_list{ overflow:hidden; padding:5px 5px; }
+.o_pick .o_pick_list .o_pick_item{width:100%;}
+.o_pick .o_pick_list .o_pick_item strong{ display:block; clear:both; height:20px; line-height:20px;}
+.o_pick .o_pick_list .o_pick_item span{ float:left; width:54px;width:16.66666666666%; white-space:nowrap;word-break:keep-all; overflow:hidden; height:20px; line-height:20px;cursor:pointer;}
+
+/*skin*/
+.o_pick_skin_1{ border-color:#ffcc00;}
+.o_pick_skin_1 .o_pick_tab{ border-color:#ffcc00;}
+.o_pick_skin_1 .o_pick_tab li{ border-color:#ffcc00;background-color:#FFF6C8;}
+.o_pick_skin_2{ border-color:#6eaeeb;}
+.o_pick_skin_2 .o_pick_tab{ border-color:#6eaeeb;}
+.o_pick_skin_2 .o_pick_tab li{ border-color:#6eaeeb;background-color:#a7d8fe;}
+
+/*seach pick*/
+.s_pick{ width:250px;border:1px solid #ffcc00; position:absolute;background-color:#FFFFFF; overflow:hidden;}
+.s_pick .s_pick_h{  height:24px; line-height:24px; padding:0 5px; white-space:nowrap; word-break:keep-all;}
+.s_pick .s_pick_r{ width:100%;}
+.s_pick .s_pick_r li{list-style:none; width:100%; overflow:hidden; height:24px; line-height:24px;}
+.s_pick .s_pick_r li.on{ background-color:#F5F5F5; cursor:auto;}
+.s_pick .s_pick_r .s_pick_city{ width:45%; float:left; padding-left:5px;}
+.s_pick .s_pick_r .s_pick_city i{ color:#ff6600;}
+.s_pick .s_pick_r .s_pick_char{ width:45%; float:right; text-align:right; padding-right:5px;}
+.s_pick .s_pick_r .s_pick_char i{ color:#ff6600;}
+.s_pick .s_pick_pager{ height:24px; line-height:24px; text-align:center; border-top:1px dashed #cccccc;}
+.s_pick .s_pick_pager span{ padding:5px 5px; cursor:pointer;}
+.s_pick .s_pick_pager span.on{ font-size:14px; font-weight:bold;}
+.s_pick .s_pick_pager em{ font-family:Arial; vertical-align:top;}
+
+/*skin*/
+.s_pick_skin_1{ border-color:#ffcc00;}
+.s_pick_skin_1 .s_pick_h{ background-color:#FFF5C8;}
+.s_pick_skin_2{ border-color:#6eaeeb;}
+.s_pick_skin_2 .s_pick_h{ background-color:#a7d8fe;}
+
