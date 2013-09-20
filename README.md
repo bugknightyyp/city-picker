@@ -1,7 +1,7 @@
 city-picker
 ===========
 
-this is used to picking a city the one customers want to  locate.  
+this is used to picking a city the one customers want to  locate.  please sea s [demo](http://bugknightyyp.github.io/city-picker/test/ "city-picker")
 
 应用场景
 --------
