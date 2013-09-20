@@ -16,6 +16,7 @@ this is used to picking a city the one customers want to  locate.
 ![搜索结果界面](img/search-panel.png "搜索结果界面")
 
 需要的数据格式：
+-----------
 
 ```js
 var alien_f_city=[
